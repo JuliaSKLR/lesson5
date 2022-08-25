@@ -4,7 +4,7 @@
 //сумма положительных чисел равна 29, сумма отрицательных равна -20.
 
 
-int [] CreateArray(int length, int min, int max)
+int[] CreateArray(int length, int min, int max)
 {
     int[] answer = new int[length];
     Random rnd = new Random();
